@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.para {
+  @apply text-text-light font-medium tracking-tight leading-5;
+}
+
+.container {
+  @apply max-w-4xl bg-white p-6 rounded-[10px] space-y-4 mb-4;
+}
+
+.inputContainer {
+  @apply grid grid-cols-2 gap-4 max-lg:grid-cols-1;
+}
